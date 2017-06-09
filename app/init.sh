@@ -28,4 +28,6 @@ echo "IPv4 Address: $(hostname -i)"
 echo "Hostname: $(hostname)"
 echo
 
-/bin/bash
+/bin/bash 
+touch /var/log/syslog
+tail -f /var/log/syslog
