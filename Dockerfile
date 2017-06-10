@@ -4,7 +4,7 @@
 FROM ubuntu:14.04
 MAINTAINER Chinmay Kolhatkar <chinmay@apache.org>
 
-COPY sandbox/app/ /app/
+COPY app/ /app/
 RUN /app/setup.sh
 
 USER apex
